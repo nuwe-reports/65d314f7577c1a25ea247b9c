@@ -1,0 +1,11 @@
+# Use the MySQL official image
+FROM mysql:latest
+
+# Environment connection variables
+ENV MYSQL_ROOT_PASSWORD=password
+ENV MYSQL_DATABASE=accwe-hospital
+ENV MYSQL_USER=user
+ENV MYSQL_PASSWORD=password
+
+# Expose the port
+EXPOSE 3306
